@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MIOS, a central de operações de marketing da VirteX Telecom no Piauí.">
+    <title>MIOS - Central de marketing | VirteX</title>
+    <link rel="icon" type="image/png" href="./img/Design sem nome (4).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <svg class="icon-sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="i-dashboard" viewBox="0 0 24 24">
+            <rect width="7" height="9" x="3" y="3" rx="1" />
+            <rect width="7" height="5" x="14" y="3" rx="1" />
+            <rect width="7" height="9" x="14" y="12" rx="1" />
+            <rect width="7" height="5" x="3" y="16" rx="1" />
+        </symbol>
+        <symbol id="i-briefcase" viewBox="0 0 24 24">
+            <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+        </symbol>
+        <symbol id="i-component" viewBox="0 0 24 24">
+            <path d="M5.5 8.5 9 12l-3.5 3.5L2 12l3.5-3.5Z" />
+            <path d="m12 2 3.5 3.5L12 9 8.5 5.5 12 2Z" />
+            <path d="M18.5 8.5 22 12l-3.5 3.5L15 12l3.5-3.5Z" />
+            <path d="m12 15 3.5 3.5L12 22l-3.5-3.5L12 15Z" />
+        </symbol>
+        <symbol id="i-megaphone" viewBox="0 0 24 24">
+            <path d="m3 11 18-5v12L3 14v-3z" />
+            <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
+        </symbol>
+        <symbol id="i-sliders" viewBox="0 0 24 24">
+            <line x1="21" x2="14" y1="4" y2="4" />
+            <line x1="10" x2="3" y1="4" y2="4" />
+            <line x1="21" x2="12" y1="12" y2="12" />
+            <line x1="8" x2="3" y1="12" y2="12" />
+            <line x1="21" x2="16" y1="20" y2="20" />
+            <line x1="12" x2="3" y1="20" y2="20" />
+            <line x1="14" x2="14" y1="2" y2="6" />
+            <line x1="8" x2="8" y1="10" y2="14" />
+            <line x1="16" x2="16" y1="18" y2="22" />
+        </symbol>
+        <symbol id="i-history" viewBox="0 0 24 24">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+            <path d="M12 7v5l4 2" />
+        </symbol>
+        <symbol id="i-chat" viewBox="0 0 24 24">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+        </symbol>
+        <symbol id="i-chart" viewBox="0 0 24 24">
+            <path d="M3 3v18h18" />
+            <path d="M18 17V9" />
+            <path d="M13 17V5" />
+            <path d="M8 17v-3" />
+        </symbol>
+        <symbol id="i-share" viewBox="0 0 24 24">
+            <circle cx="18" cy="5" r="3" />
+            <circle cx="6" cy="12" r="3" />
+            <circle cx="18" cy="19" r="3" />
+            <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
+            <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
+        </symbol>
+        <symbol id="i-map" viewBox="0 0 24 24">
+            <path
+                d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" />
+            <path d="M15 5.764v15" />
+            <path d="M9 3.236v15" />
+        </symbol>
+        <symbol id="i-bell" viewBox="0 0 24 24">
+            <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
+            <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+        </symbol>
+        <symbol id="i-users" viewBox="0 0 24 24">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        </symbol>
+        <symbol id="i-file" viewBox="0 0 24 24">
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
+        </symbol>
+        <symbol id="i-settings" viewBox="0 0 24 24">
+            <path
+                d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+            <circle cx="12" cy="12" r="3" />
+        </symbol>
+    </svg>
+
+    <!-- ==================== LOGIN ==================== -->
+    <div id="login-view">
+        <section class="login-brand">
+            <div class="login-brand-logo">
+                <img src="./img/Design sem nome (4).png" alt="VirteX">
+                <span>MIOS</span>
+            </div>
+
+            <div class="login-statement">
+                <div class="login-rule"></div>
+                <h1>A operação de marketing da VirteX, de mídia a contrato.</h1>
+                <p>Campanhas, mídia paga, field marketing e diretoria no mesmo painel. Picos, Teresina, Parnaíba e
+                    Floriano.</p>
+            </div>
+
+            <dl class="login-facts">
+                <div class="login-fact">
+                    <dt>Cluster</dt>
+                    <dd>Picos/PI</dd>
+                </div>
+                <div class="login-fact">
+                    <dt>Praças ativas</dt>
+                    <dd>04</dd>
+                </div>
+                <div class="login-fact">
+                    <dt>Módulos</dt>
+                    <dd>14</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section class="login-side">
+            <div class="login-mobile-brand">
+                <img src="./img/Design sem nome (4).png" alt="VirteX">
+                <span>MIOS</span>
+            </div>
+
+            <div class="login-form">
+                <p class="login-kicker">Acesso restrito</p>
+                <h2>Entrar no MIOS</h2>
+
+                <form onsubmit="event.preventDefault(); handleLogin();">
+                    <div class="field">
+                        <label class="field-label" for="login-email">E-mail corporativo</label>
+                        <input id="login-email" type="email" class="form-input" value="diretoria@virtex.com.br"
+                            autocomplete="username" required>
+                    </div>
+                    <div class="field">
+                        <label class="field-label" for="login-password">Senha</label>
+                        <input id="login-password" type="password" class="form-input" value="senha-de-demonstracao"
+                            autocomplete="current-password" required>
+                    </div>
+
+                    <div class="login-row">
+                        <label class="check">
+                            <input type="checkbox" checked> Lembrar acesso
+                        </label>
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Entrar no MIOS</button>
+                    <button type="button" class="btn btn-secondary btn-block" onclick="handleLogin()">Entrar com SSO
+                        corporativo</button>
+                </form>
+
+                <p class="login-foot">Uso interno da Diretoria de Marketing da VirteX Telecom. O acesso é registrado
+                    na linha do tempo do sistema.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== APLICAÇÃO ==================== -->
+    <div id="app-layout">
+
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <img src="./img/Design sem nome (4).png" alt="VirteX">
+                <span>MIOS</span>
+            </div>
+
+            <nav class="sidebar-nav" aria-label="Módulos do sistema">
+                <p class="nav-section-title">Visão geral</p>
+                <div class="nav-menu">
+                    <button type="button" class="nav-item active" data-view="dashboard"
+                        onclick="switchTab('dashboard')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-dashboard"></use></svg>
+                        <span class="nav-label">Centro de operações</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="sala-diretor"
+                        onclick="switchTab('sala-diretor')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-briefcase"></use></svg>
+                        <span class="nav-label">Diretoria</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="digital-twin"
+                        onclick="switchTab('digital-twin')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-component"></use></svg>
+                        <span class="nav-label">Digital twin</span>
+                    </button>
+                </div>
+
+                <p class="nav-section-title">Mídia</p>
+                <div class="nav-menu">
+                    <button type="button" class="nav-item" data-view="campanhas"
+                        onclick="switchTab('campanhas')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-megaphone"></use></svg>
+                        <span class="nav-label">Campanhas</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="simulador"
+                        onclick="switchTab('simulador')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-sliders"></use></svg>
+                        <span class="nav-label">Simulador</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="timeline"
+                        onclick="switchTab('timeline')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-history"></use></svg>
+                        <span class="nav-label">Timeline</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="copilot"
+                        onclick="switchTab('copilot')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-chat"></use></svg>
+                        <span class="nav-label">Copilot</span>
+                    </button>
+                </div>
+
+                <p class="nav-section-title">Inteligência</p>
+                <div class="nav-menu">
+                    <button type="button" class="nav-item" data-view="analytics"
+                        onclick="switchTab('analytics')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-chart"></use></svg>
+                        <span class="nav-label">Analytics</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="knowledge-graph"
+                        onclick="switchTab('knowledge-graph')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-share"></use></svg>
+                        <span class="nav-label">Grafo de relacionamentos</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="mapa"
+                        onclick="switchTab('mapa')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-map"></use></svg>
+                        <span class="nav-label">Cobertura Piauí</span>
+                    </button>
+                </div>
+
+                <p class="nav-section-title">Gestão</p>
+                <div class="nav-menu">
+                    <button type="button" class="nav-item" data-view="alertas" onclick="switchTab('alertas')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-bell"></use></svg>
+                        <span class="nav-label">Central de Alertas</span>
+                        <span class="nav-count">3</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="equipes"
+                        onclick="switchTab('equipes')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-users"></use></svg>
+                        <span class="nav-label">Equipes</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="logs"
+                        onclick="switchTab('logs')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-file"></use></svg>
+                        <span class="nav-label">Logs de auditoria</span>
+                    </button>
+                    <button type="button" class="nav-item" data-view="configuracoes"
+                        onclick="switchTab('configuracoes')">
+                        <svg class="nav-icon" aria-hidden="true" focusable="false"><use href="#i-settings"></use></svg>
+                        <span class="nav-label">Configurações</span>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="sidebar-foot">
+                <span class="user-initials">VX</span>
+                <div class="sidebar-foot-user">
+                    <strong>Diretoria VirteX</strong>
+                    <span>Picos, Piauí</span>
+                </div>
+                <button type="button" class="logout" onclick="logout()">Sair</button>
+            </div>
+        </aside>
+
+        <div class="main-wrapper">
+            <header class="header">
+                <div class="header-title">
+                    <p class="crumb">
+                        <span>MIOS</span>
+                        <span class="crumb-sep">/</span>
+                        <span class="crumb-current" id="breadcrumb-current">Centro de operações</span>
+                    </p>
+                    <h1 id="header-page-title">Centro de operações</h1>
+                </div>
+
+                <div class="header-actions">
+                    <div class="system-status">
+                        <span class="status-square"></span>
+                        Cluster Picos/PI
+                        <span>99,8%</span>
+                    </div>
+                    <button type="button" class="btn btn-secondary" onclick="switchTab('alertas')">3 alertas</button>
+                    <button type="button" class="btn btn-primary" onclick="switchTab('simulador')">Nova
+                        campanha</button>
+                </div>
+            </header>
+
+            <main class="content-area">
+
+                <!-- ==================== CENTRO DE OPERAÇÕES ==================== -->
+                <div id="view-dashboard" class="view-panel active">
+                    <section class="kpi-strip" aria-label="Indicadores do mês">
+                        <div class="kpi">
+                            <p class="kpi-title">ROI geral</p>
+                            <p class="kpi-value" id="kpi-roi">6,84x</p>
+                            <p class="kpi-trend"><span class="delta delta-up" id="kpi-roi-trend">+14,2%</span> vs. mês
+                                anterior</p>
+                        </div>
+                        <div class="kpi">
+                            <p class="kpi-title">Investimento ativo</p>
+                            <p class="kpi-value" id="kpi-investimento">R$ 184.500</p>
+                            <p class="kpi-trend">Dentro do orçamento aprovado</p>
+                        </div>
+                        <div class="kpi">
+                            <p class="kpi-title">Leads no mês</p>
+                            <p class="kpi-value" id="kpi-leads">4.290</p>
+                            <p class="kpi-trend">+22,8% sobre a meta</p>
+                        </div>
+                        <div class="kpi">
+                            <p class="kpi-title">Custo por aquisição</p>
+                            <p class="kpi-value" id="kpi-cac">R$ 43,00</p>
+                            <p class="kpi-trend">-8,5% após otimização</p>
+                        </div>
+                    </section>
+
+                    <div class="dash-grid">
+                        <section class="panel" aria-labelledby="chart-title">
+                            <header class="panel-head">
+                                <h2 id="chart-title">Mídia x conversão de fibra</h2>
+                                <div class="panel-meta">
+                                    <span>Hoje <span id="dashboard-chart-day">--</span></span>
+                                    <span id="dashboard-last-update">--:--:--</span>
+                                </div>
+                            </header>
+                            <div class="chart" id="chart-perf">
+                                <div class="chart-bar-group">
+                                    <div class="chart-track">
+                                        <div class="chart-bar" style="height: 40%"></div>
+                                    </div>
+                                    <span class="chart-label">Seg</span>
+                                </div>
+                                <div class="chart-bar-group">
+                                    <div class="chart-track">
+                                        <div class="chart-bar" style="height: 65%"></div>
+                                    </div>
+                                    <span class="chart-label">Ter</span>
+                                </div>
+                                <div class="chart-bar-group">
+                                    <div class="chart-track">
+                                        <div class="chart-bar" style="height: 50%"></div>
+                                    </div>
+                                    <span class="chart-label">Qua</span>
+                                </div>
+                                <div class="chart-bar-group">
+                                    <div class="chart-track">
+                                        <div class="chart-bar" style="height: 85%"></div>
+                                    </div>
+                                    <span class="chart-label">Qui</span>
+                                </div>
+                                <div class="chart-bar-group">
+                                    <div class="chart-track">
+                                        <div class="chart-bar" style="height: 95%"></div>
+                                    </div>
+                                    <span class="chart-label">Sex</span>
+                                </div>
+                                <div class="chart-bar-group">
+                                    <div class="chart-track">
+                                        <div class="chart-bar" style="height: 70%"></div>
+                                    </div>
+                                    <span class="chart-label">Sáb</span>
+                                </div>
+                                <div class="chart-bar-group">
+                                    <div class="chart-track">
+                                        <div class="chart-bar" style="height: 30%"></div>
+                                    </div>
+                                    <span class="chart-label">Dom</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="panel" aria-labelledby="events-title">
+                            <header class="panel-head">
+                                <h2 id="events-title">Últimas movimentações</h2>
+                                <div class="panel-meta"><span>Fluxo</span></div>
+                            </header>
+                            <div class="event-list" id="live-feed">
+                                <div class="event-row">
+                                    <div class="event-body">
+                                        <span class="event-time">há 4 minutos</span>
+                                        <p><strong>Campanha Picos 1Gbps</strong> atingiu 100% da cota diária de leads no
+                                            Meta Ads.</p>
+                                    </div>
+                                </div>
+                                <div class="event-row">
+                                    <div class="event-body">
+                                        <span class="event-time">há 22 minutos</span>
+                                        <p><strong>CPM em Teresina</strong> subiu 18% no Google Ads. Otimização
+                                            sugerida.</p>
+                                    </div>
+                                </div>
+                                <div class="event-row">
+                                    <div class="event-body">
+                                        <span class="event-time">há 1 hora</span>
+                                        <p><strong>Evento Parnaíba Tech</strong> teve material gráfico liberado pelo
+                                            almoxarifado.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <section class="panel" aria-labelledby="campaigns-title">
+                        <header class="panel-head">
+                            <h2 id="campaigns-title">Campanhas em andamento</h2>
+                            <div class="panel-meta"><span>3 ativas</span></div>
+                        </header>
+                        <div class="table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Campanha</th>
+                                        <th scope="col">Praça</th>
+                                        <th scope="col">Investimento</th>
+                                        <th scope="col">ROI</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Ultra Fibra Picos 1Gbps</strong></td>
+                                        <td>Picos / PI</td>
+                                        <td class="num">R$ 45.000</td>
+                                        <td><span class="num roi-cell">8,2x</span></td>
+                                        <td><span class="status status-ok">Ativa</span></td>
+                                        <td class="actions"><button type="button" class="btn btn-secondary btn-sm"
+                                                onclick="switchTab('cockpit')">Abrir</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Expansão Teresina Sul</strong></td>
+                                        <td>Teresina / PI</td>
+                                        <td class="num">R$ 80.000</td>
+                                        <td><span class="num roi-cell">5,4x</span></td>
+                                        <td><span class="status status-ok">Ativa</span></td>
+                                        <td class="actions"><button type="button" class="btn btn-secondary btn-sm"
+                                                onclick="switchTab('cockpit')">Abrir</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Conecta Parnaíba Litoral</strong></td>
+                                        <td>Parnaíba / PI</td>
+                                        <td class="num">R$ 30.000</td>
+                                        <td><span class="num roi-cell">3,1x</span></td>
+                                        <td><span class="status status-warn">Em ajuste</span></td>
+                                        <td class="actions"><button type="button" class="btn btn-secondary btn-sm"
+                                                onclick="switchTab('cockpit')">Abrir</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== CAMPANHAS ==================== -->
+                <div id="view-campanhas" class="view-panel">
+                    <div class="toolbar">
+                        <input type="search" class="form-input search"
+                            placeholder="Buscar por campanha, praça ou canal" aria-label="Buscar campanha">
+                        <div class="toolbar-actions">
+                            <button type="button" class="btn btn-secondary">Filtrar</button>
+                            <button type="button" class="btn btn-primary" onclick="switchTab('simulador')">Nova
+                                campanha</button>
+                        </div>
+                    </div>
+
+                    <section class="panel" aria-labelledby="all-campaigns-title">
+                        <header class="panel-head">
+                            <h2 id="all-campaigns-title">Carteira de campanhas</h2>
+                            <div class="panel-meta">
+                                <span>3 campanhas</span>
+                                <span>R$ 155.000 alocados</span>
+                            </div>
+                        </header>
+                        <div class="table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Campanha</th>
+                                        <th scope="col">Praça</th>
+                                        <th scope="col">Canais</th>
+                                        <th scope="col">Investimento</th>
+                                        <th scope="col">ROI previsto</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Ultra Fibra Picos 1Gbps</strong></td>
+                                        <td>Picos / PI</td>
+                                        <td>Meta Ads, Google Ads</td>
+                                        <td class="num">R$ 45.000</td>
+                                        <td class="num">8,2x</td>
+                                        <td><span class="status status-ok">Ativa</span></td>
+                                        <td class="actions"><button type="button" class="btn btn-secondary btn-sm"
+                                                onclick="switchTab('cockpit')">Abrir</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Expansão Teresina Sul</strong></td>
+                                        <td>Teresina / PI</td>
+                                        <td>Google Ads</td>
+                                        <td class="num">R$ 80.000</td>
+                                        <td class="num">5,4x</td>
+                                        <td><span class="status status-ok">Ativa</span></td>
+                                        <td class="actions"><button type="button" class="btn btn-secondary btn-sm"
+                                                onclick="switchTab('cockpit')">Abrir</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Conecta Parnaíba Litoral</strong></td>
+                                        <td>Parnaíba / PI</td>
+                                        <td>Meta Ads</td>
+                                        <td class="num">R$ 30.000</td>
+                                        <td class="num">3,1x</td>
+                                        <td><span class="status status-warn">Em ajuste</span></td>
+                                        <td class="actions"><button type="button" class="btn btn-secondary btn-sm"
+                                                onclick="switchTab('cockpit')">Abrir</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== COCKPIT ==================== -->
+                <div id="view-cockpit" class="view-panel">
+                    <section class="panel" style="margin-bottom: 16px;">
+                        <div class="campaign-head">
+                            <div class="campaign-head-main">
+                                <div class="campaign-kicker">
+                                    <span class="status status-ok">Ativa</span>
+                                    <span class="toolbar-note">Picos / PI</span>
+                                </div>
+                                <h2>Ultra Fibra Picos 1Gbps</h2>
+                                <p>Penetração B2C e B2B na macrorregião de Picos.</p>
+                            </div>
+                            <div class="campaign-actions">
+                                <button type="button" class="btn btn-secondary">Pausar</button>
+                                <button type="button" class="btn btn-primary">Editar parâmetros</button>
+                            </div>
+                        </div>
+
+                        <div class="kpi-strip" style="margin: 0; border-left: 0; border-right: 0; border-bottom: 0;">
+                            <div class="kpi">
+                                <p class="kpi-title">Custo por lead</p>
+                                <p class="kpi-value">R$ 12,40</p>
+                            </div>
+                            <div class="kpi">
+                                <p class="kpi-title">Taxa de conversão</p>
+                                <p class="kpi-value">18,4%</p>
+                            </div>
+                            <div class="kpi">
+                                <p class="kpi-title">Contratos assinados</p>
+                                <p class="kpi-value">642</p>
+                            </div>
+                            <div class="kpi">
+                                <p class="kpi-title">Mídia externa</p>
+                                <p class="kpi-value">10 OOH</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="split-grid">
+                        <section class="panel" aria-labelledby="model-read-title">
+                            <header class="panel-head">
+                                <h2 id="model-read-title">Leitura do modelo</h2>
+                                <div class="panel-meta"><span>CTR +42%</span></div>
+                            </header>
+                            <div class="panel-body">
+                                <p class="note">O criativo <strong>Vídeo Depoimento Gamer Picos</strong> apresentou CTR
+                                    42% acima da média da campanha. A recomendação é realocar <strong>R$ 5.000</strong>
+                                    do Google Search para impulsionamento no Instagram e no TikTok.</p>
+                                <p class="helper" style="margin-top: 12px;">Regra aplicada: criativo com CTR acima de
+                                    1,4x a média da campanha.</p>
+                            </div>
+                        </section>
+
+                        <section class="panel" aria-labelledby="creative-title">
+                            <header class="panel-head">
+                                <h2 id="creative-title">Criativo com melhor desempenho</h2>
+                                <div class="panel-meta"><span>Meta Ads</span></div>
+                            </header>
+                            <div class="panel-body">
+                                <div class="creative">
+                                    <div class="creative-thumb" aria-hidden="true">MP4</div>
+                                    <div class="creative-meta">
+                                        <strong>Vídeo 1Gbps Wi-Fi 6 Picos.mp4</strong>
+                                        <span><span class="num">340</span> assinaturas</span>
+                                        <span>ROAS <span class="num">11,4x</span></span>
+                                        <span>Vigência 12/10 a 26/10</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- ==================== DIGITAL TWIN ==================== -->
+                <div id="view-digital-twin" class="view-panel">
+                    <p class="section-intro">Leitura operacional dos setores de marketing da VirteX. A saúde combina
+                        entregas no prazo, aprovações pendentes e execução de verba.</p>
+
+                    <section class="panel" aria-labelledby="sectors-title">
+                        <header class="panel-head">
+                            <h2 id="sectors-title">Setores</h2>
+                            <div class="panel-meta">
+                                <span>6 setores</span>
+                                <span>Atualizado hoje</span>
+                            </div>
+                        </header>
+                        <div class="sector-list">
+                            <div class="sector-row">
+                                <span class="sector-name">Criativos e mídia</span>
+                                <div class="sector-health">
+                                    <span class="health"><span style="width: 98%"></span></span>
+                                    <span class="num">98%</span>
+                                </div>
+                                <span class="sector-note">12 artes em produção, 3 vídeos em aprovação final.</span>
+                            </div>
+                            <div class="sector-row">
+                                <span class="sector-name">Eventos e patrocínios</span>
+                                <div class="sector-health">
+                                    <span class="health is-warn"><span style="width: 75%"></span></span>
+                                    <span class="num">75%</span>
+                                </div>
+                                <span class="sector-note">Aguardando liberação fiscal para a carreta de Parnaíba.</span>
+                            </div>
+                            <div class="sector-row">
+                                <span class="sector-name">Mídia de performance</span>
+                                <div class="sector-health">
+                                    <span class="health"><span style="width: 100%"></span></span>
+                                    <span class="num">100%</span>
+                                </div>
+                                <span class="sector-note">Algoritmos otimizados em Meta, Google e TikTok Ads.</span>
+                            </div>
+                            <div class="sector-row">
+                                <span class="sector-name">Almoxarifado e brindes</span>
+                                <div class="sector-health">
+                                    <span class="health"><span style="width: 92%"></span></span>
+                                    <span class="num">92%</span>
+                                </div>
+                                <span class="sector-note">Estoque de copos e camisas abastecido em Picos.</span>
+                            </div>
+                            <div class="sector-row">
+                                <span class="sector-name">Financeiro</span>
+                                <div class="sector-health">
+                                    <span class="health"><span style="width: 95%"></span></span>
+                                    <span class="num">95%</span>
+                                </div>
+                                <span class="sector-note">Notas fiscais processadas em dia; orçamento aprovado.</span>
+                            </div>
+                            <div class="sector-row">
+                                <span class="sector-name">Administrativo e contratos</span>
+                                <div class="sector-health">
+                                    <span class="health"><span style="width: 90%"></span></span>
+                                    <span class="num">90%</span>
+                                </div>
+                                <span class="sector-note">Contratos de rádio e TV renovados em Picos e Teresina.</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== ALERTAS ==================== -->
+                <div id="view-alertas" class="view-panel">
+                    <section class="panel" aria-labelledby="alerts-title">
+                        <header class="panel-head">
+                            <h2 id="alerts-title">Alertas abertos</h2>
+                            <div class="panel-meta">
+                                <span>3 abertos</span>
+                                <button type="button" class="btn btn-secondary btn-sm">Marcar como lidos</button>
+                            </div>
+                        </header>
+                        <div class="alert-list">
+                            <article class="alert-row is-critical">
+                                <span class="alert-severity">Crítico</span>
+                                <div class="alert-main">
+                                    <h3>Custo por lead elevado em Floriano</h3>
+                                    <p>O CAC ultrapassou o limite de R$ 65,00. Ajustar os lances de palavra-chave no
+                                        Google Ads.</p>
+                                </div>
+                                <div class="alert-actions">
+                                    <button type="button" class="btn btn-primary btn-sm">Ajustar mídia</button>
+                                </div>
+                            </article>
+                            <article class="alert-row is-warning">
+                                <span class="alert-severity">Atenção</span>
+                                <div class="alert-main">
+                                    <h3>Brindes abaixo de 15% em Parnaíba</h3>
+                                    <p>O estoque de kits de boas-vindas não cobre a próxima semana. Solicitar reposição
+                                        ao almoxarifado central.</p>
+                                </div>
+                                <div class="alert-actions">
+                                    <button type="button" class="btn btn-secondary btn-sm">Notificar estoque</button>
+                                </div>
+                            </article>
+                            <article class="alert-row is-info">
+                                <span class="alert-severity">Aviso</span>
+                                <div class="alert-main">
+                                    <h3>Criativo pendente em Campo Maior</h3>
+                                    <p>A peça de 15 segundos aguarda aprovação há 36 horas. A campanha está pausada até
+                                        a liberação.</p>
+                                </div>
+                                <div class="alert-actions">
+                                    <button type="button" class="btn btn-secondary btn-sm">Revisar criativo</button>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== COPILOT ==================== -->
+                <div id="view-copilot" class="view-panel">
+                    <section class="panel chat-box" aria-labelledby="copilot-title">
+                        <header class="panel-head">
+                            <h2 id="copilot-title">Copilot</h2>
+                            <div class="panel-meta"><span>Respostas a partir dos dados do painel</span></div>
+                        </header>
+                        <div class="chat-messages" id="chat-messages">
+                            <div class="msg msg-ai">
+                                <span class="msg-author">Copilot</span>
+                                Respostas geradas a partir dos dados atuais do painel: KPIs, gráfico do dia, campanhas,
+                                alertas, simulação e histórico de ações. Escolha um assunto abaixo.
+                            </div>
+                        </div>
+                        <div class="chat-compose">
+                            <div class="chat-compose-head">
+                                <span class="msg-author">Assuntos disponíveis</span>
+                                <button type="button" class="btn btn-secondary btn-sm" onclick="limparCopilot()">Limpar
+                                    conversa</button>
+                            </div>
+                            <div class="topic-list" id="copilot-topicos"></div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== SIMULADOR ==================== -->
+                <div id="view-simulador" class="view-panel">
+                    <div class="sim-grid">
+                        <section class="panel" aria-labelledby="sim-params-title">
+                            <header class="panel-head">
+                                <h2 id="sim-params-title">Parâmetros da simulação</h2>
+                                <div class="panel-meta"><span>Recálculo a cada alteração</span></div>
+                            </header>
+                            <div class="sim-fields">
+                                <div class="range-row">
+                                    <label for="sim-budget">
+                                        <span>Investimento planejado</span>
+                                        <strong id="sim-val-budget">R$ 50.000</strong>
+                                    </label>
+                                    <input type="range" id="sim-budget" min="10000" max="200000" step="5000"
+                                        value="50000" oninput="updateSim()"
+                                        onchange="registrarParametroSim('Investimento Planejado')">
+                                </div>
+
+                                <div class="field">
+                                    <label class="field-label field-label-split" for="sim-cidade">
+                                        <span>Cidade alvo</span>
+                                        <strong id="sim-val-cidade">Picos - PI</strong>
+                                    </label>
+                                    <select class="form-input" id="sim-cidade"
+                                        onchange="updateSim(); registrarParametroSim('Cidade Alvo')">
+                                        <option value="picos">Picos - PI</option>
+                                        <option value="teresina">Teresina - PI</option>
+                                        <option value="parnaiba">Parnaíba - PI</option>
+                                        <option value="floriano">Floriano - PI</option>
+                                        <option value="campo-maior">Campo Maior - PI</option>
+                                    </select>
+                                </div>
+
+                                <div class="range-row">
+                                    <label for="sim-split">
+                                        <span>Distribuição Meta / Google</span>
+                                        <strong id="sim-val-split">60% Meta / 40% Google</strong>
+                                    </label>
+                                    <input type="range" id="sim-split" min="0" max="100" value="60"
+                                        oninput="updateSim()"
+                                        onchange="registrarParametroSim('Distribuição Meta vs Google')">
+                                    <div class="range-note">
+                                        <span>Meta <span class="num" id="sim-val-meta">R$ 30.000</span></span>
+                                        <span>Google <span class="num" id="sim-val-google">R$ 20.000</span></span>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="field-label field-label-split" for="sim-objetivo">
+                                        <span>Objetivo principal</span>
+                                        <strong id="sim-val-objetivo">Assinaturas de fibra</strong>
+                                    </label>
+                                    <select class="form-input" id="sim-objetivo"
+                                        onchange="updateSim(); registrarParametroSim('Objetivo Principal')">
+                                        <option value="assinaturas">Assinaturas de fibra</option>
+                                        <option value="leads">Geração de leads</option>
+                                        <option value="awareness">Awareness</option>
+                                        <option value="retencao">Retenção de clientes</option>
+                                    </select>
+                                </div>
+
+                                <div class="field">
+                                    <label class="field-label field-label-split" for="sim-publico">
+                                        <span>Público-alvo</span>
+                                        <strong id="sim-val-publico">Famílias (25 a 45 anos)</strong>
+                                    </label>
+                                    <select class="form-input" id="sim-publico"
+                                        onchange="updateSim(); registrarParametroSim('Público-Alvo')">
+                                        <option value="familias">Famílias (25 a 45 anos)</option>
+                                        <option value="jovens">Jovens estudantes (18 a 24)</option>
+                                        <option value="profissionais">Profissionais remotos (28 a 45)</option>
+                                        <option value="empresas">Empresas e PJ</option>
+                                        <option value="games">Gamers e streaming</option>
+                                    </select>
+                                </div>
+
+                                <div class="range-row">
+                                    <label for="sim-duracao">
+                                        <span>Duração da campanha</span>
+                                        <strong id="sim-val-duracao">4 semanas</strong>
+                                    </label>
+                                    <input type="range" id="sim-duracao" min="1" max="12" step="1" value="4"
+                                        oninput="updateSim()"
+                                        onchange="registrarParametroSim('Duração da Campanha')">
+                                </div>
+
+                                <div class="range-row">
+                                    <label for="sim-criativo">
+                                        <span>Nível de criativo</span>
+                                        <strong id="sim-val-criativo">3</strong>
+                                    </label>
+                                    <input type="range" id="sim-criativo" min="1" max="5" step="1" value="3"
+                                        oninput="updateSim()" onchange="registrarParametroSim('Nível de Criativo')">
+                                    <div class="range-note">
+                                        <span>1 = básico</span>
+                                        <span>5 = premium</span>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn btn-secondary btn-block" onclick="resetSim()">Restaurar
+                                    padrões</button>
+                            </div>
+                        </section>
+
+                        <section class="panel" aria-labelledby="sim-result-title">
+                            <header class="panel-head">
+                                <h2 id="sim-result-title">Resultado projetado</h2>
+                                <div class="panel-meta"><span class="badge badge-success" id="sim-confianca">Confiança
+                                        87%</span></div>
+                            </header>
+
+                            <div class="result-grid">
+                                <div class="result-cell">
+                                    <p class="result-label">ROI previsto</p>
+                                    <p class="result-value" id="sim-res-roi">6,7x</p>
+                                    <p class="result-hint" id="sim-roi-hint">Intervalo 6,9x - 7,9x</p>
+                                </div>
+                                <div class="result-cell">
+                                    <p class="result-label">Leads estimados</p>
+                                    <p class="result-value" id="sim-res-leads">1.382</p>
+                                    <p class="result-hint" id="sim-leads-hint">Custo por lead R$ 27,00</p>
+                                </div>
+                                <div class="result-cell">
+                                    <p class="result-label">Assinaturas de fibra</p>
+                                    <p class="result-value" id="sim-res-sales">333</p>
+                                    <p class="result-hint" id="sim-sales-hint">Taxa de conversão 18%</p>
+                                </div>
+                                <div class="result-cell">
+                                    <p class="result-label">Receita adicional</p>
+                                    <p class="result-value" id="sim-res-revenue">R$ 370.000</p>
+                                    <p class="result-hint" id="sim-rev-hint">Ticket médio R$ 1.100</p>
+                                </div>
+                            </div>
+
+                            <div class="result-body">
+                                <div>
+                                    <div class="channel">
+                                        <div class="channel-head">
+                                            <span>Meta Ads</span>
+                                            <strong id="sim-meta-share">62% dos leads</strong>
+                                        </div>
+                                        <div class="channel-track">
+                                            <div class="channel-fill" id="sim-meta-bar" style="width: 60%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="channel" style="margin-top: 12px;">
+                                        <div class="channel-head">
+                                            <span>Google Ads</span>
+                                            <strong id="sim-google-share">38% dos leads</strong>
+                                        </div>
+                                        <div class="channel-track">
+                                            <div class="channel-fill is-google" id="sim-google-bar"
+                                                style="width: 40%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="insight" id="sim-insight">
+                                    <span class="msg-author">Copilot</span>
+                                    <span id="sim-insight-text">Aguardando parâmetros.</span>
+                                </div>
+
+                                <button type="button" class="btn btn-primary btn-block" onclick="aprovarSim()">Aprovar e
+                                    executar campanha</button>
+                                <div class="approval" id="sim-approval"></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- ==================== TIMELINE ==================== -->
+                <div id="view-timeline" class="view-panel">
+                    <section class="panel" aria-labelledby="timeline-title">
+                        <header class="panel-head">
+                            <h2 id="timeline-title">Atividade do painel</h2>
+                            <div class="panel-meta">
+                                <span><span id="timeline-contador">0</span> ações</span>
+                                <span id="timeline-relogio">--:--:--</span>
+                                <button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="limparTimeline()">Limpar histórico</button>
+                            </div>
+                        </header>
+                        <div id="timeline-lista" class="timeline"></div>
+                    </section>
+                </div>
+
+                <!-- ==================== GRAFO ==================== -->
+                <div id="view-knowledge-graph" class="view-panel">
+                    <section class="panel" aria-labelledby="graph-heading">
+                        <header class="panel-head">
+                            <h2 id="graph-heading">Grafo de relacionamentos</h2>
+                            <div class="panel-meta"><span>Campanha Picos 1Gbps</span></div>
+                        </header>
+                        <div class="panel-body">
+                            <p class="section-intro">Caminho entre canais, campanha, leads e vendas. A linha em vermelho
+                                marca o fluxo principal da campanha.</p>
+                            <div class="graph-wrap">
+                                <svg class="graph-svg" viewBox="0 0 900 340" role="img"
+                                    aria-labelledby="graph-svg-title graph-svg-desc">
+                                    <title id="graph-svg-title">Fluxo da campanha Picos 1Gbps</title>
+                                    <desc id="graph-svg-desc">Meta Ads e Google Ads alimentam a campanha Picos 1Gbps,
+                                        que gera 4,2 mil leads e se divide em vendas B2C e B2B.</desc>
+
+                                    <line class="graph-link" x1="180" y1="78" x2="360" y2="152" />
+                                    <line class="graph-link" x1="200" y1="262" x2="360" y2="168" />
+                                    <line class="graph-link-main" x1="540" y1="160" x2="620" y2="160" />
+                                    <line class="graph-link" x1="740" y1="155" x2="780" y2="70" />
+                                    <line class="graph-link" x1="740" y1="165" x2="780" y2="270" />
+
+                                    <rect class="graph-node" x="40" y="56" width="140" height="44" />
+                                    <text x="110" y="82" text-anchor="middle">META ADS</text>
+
+                                    <rect class="graph-node" x="40" y="240" width="160" height="44" />
+                                    <text x="120" y="266" text-anchor="middle">GOOGLE ADS</text>
+
+                                    <rect class="graph-node-main" x="360" y="136" width="180" height="48" />
+                                    <text x="450" y="164" text-anchor="middle">PICOS 1GBPS</text>
+
+                                    <rect class="graph-node" x="620" y="136" width="120" height="48" />
+                                    <text x="680" y="164" text-anchor="middle">LEADS 4,2K</text>
+
+                                    <rect class="graph-node" x="780" y="48" width="100" height="44" />
+                                    <text x="830" y="74" text-anchor="middle">B2C</text>
+
+                                    <rect class="graph-node" x="780" y="248" width="100" height="44" />
+                                    <text x="830" y="274" text-anchor="middle">B2B</text>
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== ANALYTICS ==================== -->
+                <div id="view-analytics" class="view-panel">
+                    <section class="kpi-strip kpi-strip--3" aria-label="Indicadores de mídia">
+                        <div class="kpi">
+                            <p class="kpi-title">Impressões totais</p>
+                            <p class="kpi-value">2,4M</p>
+                            <p class="kpi-trend">Últimos 30 dias</p>
+                        </div>
+                        <div class="kpi">
+                            <p class="kpi-title">CTR médio</p>
+                            <p class="kpi-value">4,22%</p>
+                            <p class="kpi-trend">Meta: 3,80%</p>
+                        </div>
+                        <div class="kpi">
+                            <p class="kpi-title">CPC médio</p>
+                            <p class="kpi-value">R$ 1,82</p>
+                            <p class="kpi-trend">-6,1% vs. período anterior</p>
+                        </div>
+                    </section>
+
+                    <section class="panel" aria-labelledby="channel-title">
+                        <header class="panel-head">
+                            <h2 id="channel-title">Desempenho por canal</h2>
+                            <div class="panel-meta"><span>Últimos 30 dias</span></div>
+                        </header>
+                        <div class="table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Canal</th>
+                                        <th scope="col">Investimento</th>
+                                        <th scope="col">Impressões</th>
+                                        <th scope="col">CTR</th>
+                                        <th scope="col">CPL</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Meta Ads</strong></td>
+                                        <td class="num">R$ 96.000</td>
+                                        <td class="num">1,4M</td>
+                                        <td class="num">4,8%</td>
+                                        <td class="num">R$ 21,40</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Google Ads</strong></td>
+                                        <td class="num">R$ 62.500</td>
+                                        <td class="num">740k</td>
+                                        <td class="num">3,6%</td>
+                                        <td class="num">R$ 34,80</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>TikTok Ads</strong></td>
+                                        <td class="num">R$ 26.000</td>
+                                        <td class="num">260k</td>
+                                        <td class="num">2,9%</td>
+                                        <td class="num">R$ 28,60</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== MAPA ==================== -->
+                <div id="view-mapa" class="view-panel">
+                    <section class="panel" aria-labelledby="map-title">
+                        <header class="panel-head">
+                            <h2 id="map-title">Cobertura e penetração no Piauí</h2>
+                            <div class="panel-meta"><span>4 praças</span></div>
+                        </header>
+                        <div class="panel-body">
+                            <div class="map-grid">
+                                <div class="map-frame">
+                                    <iframe
+                                        src="https://maps.google.com/maps?q=Piau%C3%AD%2C%20Brasil&amp;t=h&amp;hl=pt-BR&amp;output=embed"
+                                        allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                        title="Mapa de cobertura no Piauí"></iframe>
+                                    <a class="map-link" href="https://earth.google.com/web/search/Piau%C3%AD"
+                                        target="_blank" rel="noopener">Abrir no Google Earth</a>
+                                </div>
+
+                                <div class="market-list">
+                                    <div class="market-row">
+                                        <div class="market-top">
+                                            <span><strong>Picos</strong> <span class="market-tag">sede</span></span>
+                                            <span class="num">68%</span>
+                                        </div>
+                                        <span class="health"><span style="width: 68%"></span></span>
+                                    </div>
+                                    <div class="market-row">
+                                        <div class="market-top">
+                                            <span><strong>Teresina</strong> <span class="market-tag">expansão</span></span>
+                                            <span class="num">24%</span>
+                                        </div>
+                                        <span class="health"><span style="width: 24%"></span></span>
+                                    </div>
+                                    <div class="market-row">
+                                        <div class="market-top">
+                                            <span><strong>Parnaíba</strong></span>
+                                            <span class="num">41%</span>
+                                        </div>
+                                        <span class="health"><span style="width: 41%"></span></span>
+                                    </div>
+                                    <div class="market-row">
+                                        <div class="market-top">
+                                            <span><strong>Floriano</strong></span>
+                                            <span class="num">35%</span>
+                                        </div>
+                                        <span class="health"><span style="width: 35%"></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== EQUIPES ==================== -->
+                <div id="view-equipes" class="view-panel">
+                    <div class="kanban">
+                        <section class="panel kanban-col" aria-labelledby="kanban-todo">
+                            <header class="kanban-head">
+                                <h2 id="kanban-todo">A fazer</h2>
+                                <span class="kanban-count">3</span>
+                            </header>
+                            <div class="kanban-list">
+                                <div class="kanban-task is-todo">
+                                    <strong>Layout dos outdoors de Teresina</strong>
+                                    <span>Design / Lucas</span>
+                                </div>
+                                <div class="kanban-task is-todo">
+                                    <strong>Roteiro do vídeo de 15 segundos</strong>
+                                    <span>Criação / Beatriz</span>
+                                </div>
+                                <div class="kanban-task is-todo">
+                                    <strong>Briefing de rádio para Floriano</strong>
+                                    <span>Planejamento / Renata</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="panel kanban-col" aria-labelledby="kanban-doing">
+                            <header class="kanban-head">
+                                <h2 id="kanban-doing">Em progresso</h2>
+                                <span class="kanban-count">2</span>
+                            </header>
+                            <div class="kanban-list">
+                                <div class="kanban-task is-doing">
+                                    <strong>Ajuste de lances no Meta Ads</strong>
+                                    <span>Performance / Amanda</span>
+                                </div>
+                                <div class="kanban-task is-doing">
+                                    <strong>Aprovação da arte de Parnaíba</strong>
+                                    <span>Criação / Lucas</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="panel kanban-col" aria-labelledby="kanban-done">
+                            <header class="kanban-head">
+                                <h2 id="kanban-done">Concluído</h2>
+                                <span class="kanban-count">3</span>
+                            </header>
+                            <div class="kanban-list">
+                                <div class="kanban-task is-done">
+                                    <strong>Copy do e-mail B2B de Picos</strong>
+                                    <span>Copywriting / Carlos</span>
+                                </div>
+                                <div class="kanban-task is-done">
+                                    <strong>Relatório semanal de mídia</strong>
+                                    <span>Analytics / Amanda</span>
+                                </div>
+                                <div class="kanban-task is-done">
+                                    <strong>Reposição de brindes em Picos</strong>
+                                    <span>Operações / Renata</span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- ==================== CONFIGURAÇÕES ==================== -->
+                <div id="view-configuracoes" class="view-panel">
+                    <section class="panel config-panel" aria-labelledby="config-title">
+                        <header class="panel-head">
+                            <h2 id="config-title">Integrações de mídia</h2>
+                            <div class="panel-meta"><span>Somente leitura</span></div>
+                        </header>
+                        <div class="config-body">
+                            <div class="field">
+                                <label class="field-label" for="meta-token">Meta Ads access token</label>
+                                <input id="meta-token" type="password" class="form-input" value="EAAGNO4*****">
+                                <p class="helper">Token usado pelo conector de mídia da conta VirteX Picos.</p>
+                            </div>
+                            <div class="field">
+                                <label class="field-label" for="google-account">Google Ads account ID</label>
+                                <input id="google-account" type="text" class="form-input" value="982-120-4410">
+                                <p class="helper">Conta que recebe as campanhas de busca da regional Piauí.</p>
+                            </div>
+                            <button type="button" class="btn btn-primary" style="align-self: flex-start;">Salvar
+                                configurações</button>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== LOGS ==================== -->
+                <div id="view-logs" class="view-panel">
+                    <section class="panel" aria-labelledby="logs-title">
+                        <header class="panel-head">
+                            <h2 id="logs-title">Logs de auditoria</h2>
+                            <div class="panel-meta"><span>25 registros mais recentes</span></div>
+                        </header>
+                        <div class="table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Horário</th>
+                                        <th scope="col">Usuário</th>
+                                        <th scope="col">Ação</th>
+                                        <th scope="col">Módulo</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="logs-tbody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- ==================== DIRETORIA ==================== -->
+                <div id="view-sala-diretor" class="view-panel">
+                    <section class="panel" style="margin-bottom: 16px;">
+                        <header class="panel-head">
+                            <div>
+                                <p class="login-kicker">Visão C-level</p>
+                                <h2 style="font-size: 18px; margin-top: 4px;">Cockpit executivo</h2>
+                            </div>
+                            <button type="button" class="btn btn-secondary" onclick="window.print()">Exportar
+                                relatório</button>
+                        </header>
+                    </section>
+
+                    <section class="kpi-strip kpi-strip--3" aria-label="Indicadores da diretoria">
+                        <div class="kpi">
+                            <p class="kpi-title">Receita gerada</p>
+                            <p class="kpi-value">R$ 4.280.000</p>
+                            <p class="kpi-trend"><span class="delta delta-up">+18,4%</span> vs. Q3</p>
+                        </div>
+                        <div class="kpi">
+                            <p class="kpi-title">ROI global</p>
+                            <p class="kpi-value">8,4x</p>
+                            <p class="kpi-trend">Meta batida</p>
+                        </div>
+                        <div class="kpi">
+                            <p class="kpi-title">Investimento acumulado</p>
+                            <p class="kpi-value">R$ 510.000</p>
+                            <p class="kpi-trend">100% auditado</p>
+                        </div>
+                    </section>
+
+                    <div class="split-grid">
+                        <section class="panel" aria-labelledby="summary-title">
+                            <header class="panel-head">
+                                <h2 id="summary-title">Resumo estratégico</h2>
+                            </header>
+                            <div class="panel-body">
+                                <p class="note">O MIOS reduziu os custos operacionais do setor em <strong>22% no último
+                                        trimestre</strong>. A expansão de fibra na macrorregião de Picos apresentou a
+                                    maior margem de retorno sobre investimento do estado do Piauí.</p>
+                            </div>
+                        </section>
+
+                        <section class="panel" aria-labelledby="ranking-title">
+                            <header class="panel-head">
+                                <h2 id="ranking-title">Retorno por campanha</h2>
+                                <div class="panel-meta"><span>Trimestre</span></div>
+                            </header>
+                            <div class="table-wrap">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Campanha</th>
+                                            <th scope="col">Investimento</th>
+                                            <th scope="col">ROI</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Ultra Fibra Picos 1Gbps</strong></td>
+                                            <td class="num">R$ 45.000</td>
+                                            <td class="num">8,2x</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Expansão Teresina Sul</strong></td>
+                                            <td class="num">R$ 80.000</td>
+                                            <td class="num">5,4x</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Conecta Parnaíba Litoral</strong></td>
+                                            <td class="num">R$ 30.000</td>
+                                            <td class="num">3,1x</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="./SCRIPT.JS"></script>
+</body>
+
+</html>

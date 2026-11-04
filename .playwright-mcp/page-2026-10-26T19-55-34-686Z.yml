@@ -1,0 +1,19 @@
+- generic [ref=e22]:
+  - paragraph [ref=e23]: Acesso restrito
+  - heading "Entrar no MIOS" [level=2] [ref=e24]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]: E-mail corporativo
+      - textbox "E-mail corporativo" [ref=e28]: diretoria@virtex.com.br
+    - generic [ref=e29]:
+      - generic [ref=e30]: Senha
+      - textbox "Senha" [ref=e31]: senha-de-demonstracao
+    - generic [ref=e32]:
+      - generic [ref=e33] [cursor=pointer]:
+        - checkbox "Lembrar acesso" [checked] [ref=e34]
+        - text: Lembrar acesso
+      - link "Esqueceu a senha?" [ref=e35] [cursor=pointer]:
+        - /url: "#"
+    - button "Entrar no MIOS" [ref=e36] [cursor=pointer]
+    - button "Entrar com SSO corporativo" [ref=e37] [cursor=pointer]
+  - paragraph [ref=e38]: Uso interno da Diretoria de Marketing da VirteX Telecom. O acesso é registrado na linha do tempo do sistema.

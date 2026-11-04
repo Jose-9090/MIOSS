@@ -1,0 +1,2 @@
+[     108ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) @ http://127.0.0.1:8899/INDEX.HTML:0
+[     108ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) @ http://127.0.0.1:8899/INDEX.HTML:0

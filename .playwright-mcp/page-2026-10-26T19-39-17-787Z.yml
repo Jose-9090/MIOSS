@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: V
+    - heading "VirteX MIOS" [level=2] [ref=e5]
+    - paragraph [ref=e6]: Marketing Intelligence Operating System
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: E-mail Corporativo
+        - textbox [ref=e10]: diretoria@virtex.com.br
+      - generic [ref=e11]:
+        - generic [ref=e12]: Senha
+        - textbox [ref=e13]: ••••••••••••
+      - generic [ref=e14]:
+        - generic [ref=e15] [cursor=pointer]:
+          - checkbox "Lembrar acesso" [checked] [ref=e16]
+          - text: Lembrar acesso
+        - link "Esqueceu a senha?" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+      - button "Entrar no MIOS " [ref=e18] [cursor=pointer]:
+        - text: Entrar no MIOS
+        - generic [ref=e19]: 
+      - button " Entrar via SSO Corporativo" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: 
+        - text: Entrar via SSO Corporativo
+  - text:                  +          +                                             

@@ -1,0 +1,160 @@
+- generic [ref=f4e2]:
+  - complementary [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - img "VirteX" [ref=f4e5]
+      - generic [ref=f4e6]: MIOS
+    - navigation "Módulos do sistema" [ref=f4e7]:
+      - paragraph [ref=f4e8]: Visão geral
+      - generic [ref=f4e9]:
+        - button "Centro de operações" [ref=f4e10] [cursor=pointer]
+        - button "Diretoria" [ref=f4e11] [cursor=pointer]
+        - button "Digital twin" [ref=f4e12] [cursor=pointer]
+      - paragraph [ref=f4e13]: Mídia
+      - generic [ref=f4e14]:
+        - button "Campanhas" [ref=f4e15] [cursor=pointer]
+        - button "Simulador" [ref=f4e16] [cursor=pointer]
+        - button "Timeline" [ref=f4e17] [cursor=pointer]
+        - button "Copilot" [ref=f4e18] [cursor=pointer]
+      - paragraph [ref=f4e19]: Inteligência
+      - generic [ref=f4e20]:
+        - button "Analytics" [ref=f4e21] [cursor=pointer]
+        - button "Grafo de relacionamentos" [ref=f4e22] [cursor=pointer]
+        - button "Cobertura Piauí" [ref=f4e23] [cursor=pointer]
+      - paragraph [ref=f4e24]: Gestão
+      - generic [ref=f4e25]:
+        - button "Alertas 3" [ref=f4e26] [cursor=pointer]:
+          - text: Alertas
+          - generic [ref=f4e27]: "3"
+        - button "Equipes" [ref=f4e28] [cursor=pointer]
+        - button "Logs de auditoria" [ref=f4e29] [cursor=pointer]
+        - button "Configurações" [ref=f4e30] [cursor=pointer]
+    - generic [ref=f4e31]:
+      - generic [ref=f4e32]: VX
+      - generic [ref=f4e33]:
+        - strong [ref=f4e34]: Diretoria VirteX
+        - generic [ref=f4e35]: Picos, Piauí
+      - button "Sair" [ref=f4e36] [cursor=pointer]
+  - generic [ref=f4e37]:
+    - banner [ref=f4e38]:
+      - generic [ref=f4e39]:
+        - paragraph [ref=f4e40]:
+          - generic [ref=f4e41]: MIOS
+          - generic [ref=f4e42]: /
+          - generic [ref=f4e43]: Copilot
+        - heading "Copilot" [level=1] [ref=f4e196]
+      - generic [ref=f4e45]:
+        - generic [ref=f4e46]:
+          - text: Cluster Picos/PI
+          - generic [ref=f4e48]: 99,8%
+        - button "3 alertas" [ref=f4e49] [cursor=pointer]
+        - button "Nova campanha" [ref=f4e50] [cursor=pointer]
+    - main [ref=f4e51]:
+      - region [ref=f4e198]:
+        - generic [ref=f4e199]:
+          - heading "Copilot" [level=2] [ref=f4e200]
+          - generic [ref=f4e201]: Respostas a partir dos dados do painel
+        - generic [ref=f4e203]:
+          - generic [ref=f4e204]:
+            - generic [ref=f4e205]: Copilot
+            - text: "Respostas geradas a partir dos dados atuais do painel: KPIs, gráfico do dia, campanhas, alertas, simulação e histórico de ações. Escolha um assunto abaixo."
+          - generic [ref=f4e206]:
+            - generic [ref=f4e207]: Copilot
+            - text: Leitura atual do painel em
+            - strong [ref=f4e208]: hoje
+            - text: ": ROI geral em"
+            - strong [ref=f4e209]: 9,05x
+            - text: ", CAC de"
+            - strong [ref=f4e210]: R$ 62,63
+            - text: e
+            - strong [ref=f4e211]: "5.725"
+            - text: leads no mês. O gráfico está movimentando apenas
+            - strong [ref=f4e212]: Seg
+            - text: (41,8%) e há
+            - strong [ref=f4e213]: "26"
+            - text: ações registradas na Timeline.Selecione um assunto abaixo para detalhar.
+          - generic [ref=f4e214]:
+            - generic [ref=f4e215]: Copilot
+            - text: Leitura atual do painel em
+            - strong [ref=f4e216]: hoje
+            - text: ": ROI geral em"
+            - strong [ref=f4e217]: 9,27x
+            - text: ", CAC de"
+            - strong [ref=f4e218]: R$ 63,16
+            - text: e
+            - strong [ref=f4e219]: "5.726"
+            - text: leads no mês. O gráfico está movimentando apenas
+            - strong [ref=f4e220]: Seg
+            - text: (36,6%) e há
+            - strong [ref=f4e221]: "40"
+            - text: ações registradas na Timeline.Selecione um assunto abaixo para detalhar.
+          - generic [ref=f4e222]:
+            - generic [ref=f4e223]: Copilot
+            - text: Leitura atual do painel em
+            - strong [ref=f4e224]: hoje
+            - text: ": ROI geral em"
+            - strong [ref=f4e225]: 9,21x
+            - text: ", CAC de"
+            - strong [ref=f4e226]: R$ 62,32
+            - text: e
+            - strong [ref=f4e227]: "5.740"
+            - text: leads no mês. O gráfico está movimentando apenas
+            - strong [ref=f4e228]: Seg
+            - text: (32,1%) e há
+            - strong [ref=f4e229]: "50"
+            - text: ações registradas na Timeline.Selecione um assunto abaixo para detalhar.
+          - generic [ref=f4e230]:
+            - generic [ref=f4e231]: Copilot
+            - text: Leitura atual do painel em
+            - strong [ref=f4e232]: hoje
+            - text: ": ROI geral em"
+            - strong [ref=f4e233]: 9,21x
+            - text: ", CAC de"
+            - strong [ref=f4e234]: R$ 62,32
+            - text: e
+            - strong [ref=f4e235]: "5.740"
+            - text: leads no mês. O gráfico está movimentando apenas
+            - strong [ref=f4e236]: Seg
+            - text: (32,1%) e há
+            - strong [ref=f4e237]: "50"
+            - text: ações registradas na Timeline.Selecione um assunto abaixo para detalhar.
+          - generic [ref=f4e238]:
+            - generic [ref=f4e239]: Você
+            - text: Resumo do painel agora
+          - generic [ref=f4e240]:
+            - generic [ref=f4e241]: Copilot
+            - text: "Estado atual do Centro de operações:"
+            - list [ref=f4e242]:
+              - listitem [ref=f4e243]:
+                - strong [ref=f4e244]: "ROI geral:"
+                - text: 9,21x (+2,7% vs mês anterior)
+              - listitem [ref=f4e245]:
+                - strong [ref=f4e246]: "Investimento ativo:"
+                - text: R$ 269.531
+              - listitem [ref=f4e247]:
+                - strong [ref=f4e248]: "Leads no mês:"
+                - text: "5.740"
+              - listitem [ref=f4e249]:
+                - strong [ref=f4e250]: "CAC:"
+                - text: R$ 62,32
+              - listitem [ref=f4e251]:
+                - strong [ref=f4e252]: "Dia em alta no gráfico:"
+                - text: Seg (32.1% de performance)
+              - listitem [ref=f4e253]:
+                - strong [ref=f4e254]: "Última atualização:"
+                - text: 16:53:12
+            - text: Os indicadores são recalculados a cada 4s enquanto esta aba fica aberta e ficam salvos no navegador, então o valor não se perde ao recarregar a página.
+        - generic [ref=f4e255]:
+          - generic [ref=f4e256]:
+            - generic [ref=f4e257]: Assuntos disponíveis
+            - button "Limpar conversa" [ref=f4e258] [cursor=pointer]
+          - generic [ref=f4e259]:
+            - button "Resumo do painel agora" [ref=f4e260] [cursor=pointer]
+            - button "Como funciona o Centro de operações?" [ref=f4e261] [cursor=pointer]
+            - button "O que cada aba do sistema faz e o que guarda?" [ref=f4e262] [cursor=pointer]
+            - button "Como estão as campanhas agora?" [ref=f4e263] [cursor=pointer]
+            - button "Como funcionam os gráficos e mapas?" [ref=f4e264] [cursor=pointer]
+            - button "Quais alertas estão abertos?" [ref=f4e265] [cursor=pointer]
+            - button "Como o Simulador calcula?" [ref=f4e266] [cursor=pointer]
+            - button "O que a Timeline registra?" [ref=f4e267] [cursor=pointer]
+            - button "Onde meus dados ficam guardados?" [ref=f4e268] [cursor=pointer]
+            - button "O que o Copilot consegue responder?" [ref=f4e269] [cursor=pointer]

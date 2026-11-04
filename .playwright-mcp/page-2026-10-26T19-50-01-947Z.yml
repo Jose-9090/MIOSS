@@ -1,0 +1,25 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e3]:
+    - generic [ref=f4e4]: V
+    - heading "VirteX MIOS" [level=2] [ref=f4e5]
+    - paragraph [ref=f4e6]: Marketing Intelligence Operating System
+    - generic [ref=f4e7]:
+      - generic [ref=f4e8]:
+        - generic [ref=f4e9]: E-mail Corporativo
+        - textbox [ref=f4e10]: diretoria@virtex.com.br
+      - generic [ref=f4e11]:
+        - generic [ref=f4e12]: Senha
+        - textbox [ref=f4e13]: ••••••••••••
+      - generic [ref=f4e14]:
+        - generic [ref=f4e15] [cursor=pointer]:
+          - checkbox "Lembrar acesso" [checked] [ref=f4e16]
+          - text: Lembrar acesso
+        - link "Esqueceu a senha?" [ref=f4e17] [cursor=pointer]:
+          - /url: "#"
+      - button "Entrar no MIOS " [ref=f4e18] [cursor=pointer]:
+        - text: Entrar no MIOS
+        - generic [ref=f4e19]: 
+      - button " Entrar via SSO Corporativo" [ref=f4e20] [cursor=pointer]:
+        - generic [ref=f4e21]: 
+        - text: Entrar via SSO Corporativo
+  - text:                  +          +                                                 

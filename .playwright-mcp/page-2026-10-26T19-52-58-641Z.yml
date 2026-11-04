@@ -1,0 +1,52 @@
+- generic [ref=f4e2]:
+  - complementary [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - img "VirteX" [ref=f4e5]
+      - generic [ref=f4e6]: MIOS
+    - navigation "Módulos do sistema" [ref=f4e7]:
+      - generic [ref=f4e9]:
+        - button "Centro de operações" [ref=f4e10] [cursor=pointer]
+        - button "Diretoria" [ref=f4e11] [cursor=pointer]
+        - button "Digital twin" [ref=f4e12] [cursor=pointer]
+      - generic [ref=f4e14]:
+        - button "Campanhas" [ref=f4e15] [cursor=pointer]
+        - button "Simulador" [ref=f4e16] [cursor=pointer]
+        - button "Timeline" [ref=f4e17] [cursor=pointer]
+        - button "Copilot" [ref=f4e18] [cursor=pointer]
+      - generic [ref=f4e20]:
+        - button "Analytics" [ref=f4e21] [cursor=pointer]
+        - button "Grafo de relacionamentos" [ref=f4e22] [cursor=pointer]
+        - button "Cobertura Piauí" [ref=f4e23] [cursor=pointer]
+      - generic [ref=f4e25]:
+        - button "Alertas 3" [ref=f4e26] [cursor=pointer]:
+          - text: Alertas
+          - generic [ref=f4e27]: "3"
+        - button "Equipes" [ref=f4e28] [cursor=pointer]
+        - button "Logs de auditoria" [ref=f4e29] [cursor=pointer]
+        - button "Configurações" [ref=f4e30] [cursor=pointer]
+  - generic [ref=f4e37]:
+    - banner [ref=f4e38]:
+      - generic [ref=f4e39]:
+        - paragraph [ref=f4e40]:
+          - generic [ref=f4e41]: MIOS
+          - generic [ref=f4e42]: /
+          - generic [ref=f4e43]: Configurações
+        - heading "Configurações" [level=1] [ref=f4e179]
+      - generic [ref=f4e45]:
+        - button "3 alertas" [ref=f4e49] [cursor=pointer]
+        - button "Nova campanha" [ref=f4e50] [cursor=pointer]
+    - main [ref=f4e51]:
+      - region [ref=f4e181]:
+        - generic [ref=f4e182]:
+          - heading "Integrações de mídia" [level=2] [ref=f4e183]
+          - generic [ref=f4e184]: Somente leitura
+        - generic [ref=f4e186]:
+          - generic [ref=f4e187]:
+            - generic [ref=f4e188]: Meta Ads access token
+            - textbox "Meta Ads access token" [ref=f4e189]: EAAGNO4*****
+            - paragraph [ref=f4e190]: Token usado pelo conector de mídia da conta VirteX Picos.
+          - generic [ref=f4e191]:
+            - generic [ref=f4e192]: Google Ads account ID
+            - textbox "Google Ads account ID" [ref=f4e193]: 982-120-4410
+            - paragraph [ref=f4e194]: Conta que recebe as campanhas de busca da regional Piauí.
+          - button "Salvar configurações" [ref=f4e195] [cursor=pointer]

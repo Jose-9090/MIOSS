@@ -1,0 +1,37 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - img "VirteX" [ref=f2e5]
+      - generic [ref=f2e182]: MIOS
+    - generic [ref=f2e6]:
+      - heading "A operação de marketing da VirteX, de mídia a contrato." [level=1] [ref=f2e7]
+      - paragraph [ref=f2e8]: Campanhas, mídia paga, field marketing e diretoria no mesmo painel. Picos, Teresina, Parnaíba e Floriano.
+    - generic [ref=f2e9]:
+      - generic [ref=f2e10]:
+        - term [ref=f2e11]: Cluster
+        - definition [ref=f2e12]: Picos/PI
+      - generic [ref=f2e13]:
+        - term [ref=f2e14]: Praças ativas
+        - definition [ref=f2e15]: "04"
+      - generic [ref=f2e16]:
+        - term [ref=f2e17]: Módulos
+        - definition [ref=f2e18]: "14"
+  - generic [ref=f2e20]:
+    - paragraph [ref=f2e21]: Acesso restrito
+    - heading "Entrar no MIOS" [level=2] [ref=f2e22]
+    - generic [ref=f2e23]:
+      - generic [ref=f2e24]:
+        - generic [ref=f2e184]: E-mail corporativo
+        - textbox "E-mail corporativo" [ref=f2e25]: diretoria@virtex.com.br
+      - generic [ref=f2e26]:
+        - generic [ref=f2e185]: Senha
+        - textbox "Senha" [ref=f2e27]: senha-de-demonstracao
+      - generic [ref=f2e28]:
+        - generic [ref=f2e29] [cursor=pointer]:
+          - checkbox "Lembrar acesso" [checked] [ref=f2e30]
+          - text: Lembrar acesso
+        - link "Esqueceu a senha?" [ref=f2e31] [cursor=pointer]:
+          - /url: "#"
+      - button "Entrar no MIOS" [ref=f2e32] [cursor=pointer]
+      - button "Entrar com SSO corporativo" [ref=f2e33] [cursor=pointer]
+    - paragraph [ref=f2e34]: Uso interno da Diretoria de Marketing da VirteX Telecom. O acesso é registrado na linha do tempo do sistema.

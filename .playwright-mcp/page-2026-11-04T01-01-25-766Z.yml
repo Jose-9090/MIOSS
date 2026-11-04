@@ -1,0 +1,147 @@
+- generic [ref=e39]:
+  - complementary [ref=e40]:
+    - generic [ref=e41]:
+      - img "VirteX" [ref=e42]
+      - generic [ref=e43]: MIOS
+    - navigation "Módulos do sistema" [ref=e44]:
+      - paragraph [ref=e45]: Visão geral
+      - generic [ref=e46]:
+        - button "Centro de operações" [ref=e47] [cursor=pointer]
+        - button "Diretoria" [ref=e51] [cursor=pointer]
+        - button "Digital twin" [ref=e55] [cursor=pointer]
+      - paragraph [ref=e59]: Mídia
+      - generic [ref=e60]:
+        - button "Campanhas" [ref=e61] [cursor=pointer]
+        - button "Simulador" [ref=e65] [cursor=pointer]
+        - button "Timeline" [ref=e69] [cursor=pointer]
+        - button "Copilot" [ref=e73] [cursor=pointer]
+      - paragraph [ref=e77]: Inteligência
+      - generic [ref=e78]:
+        - button "Analytics" [ref=e79] [cursor=pointer]
+        - button "Grafo de relacionamentos" [ref=e83] [cursor=pointer]
+        - button "Cobertura Piauí" [ref=e87] [cursor=pointer]
+      - paragraph [ref=e91]: Gestão
+      - generic [ref=e92]:
+        - button "Central de Alertas 3" [ref=e93] [cursor=pointer]:
+          - generic [ref=e96]: Central de Alertas
+          - generic [ref=e97]: "3"
+        - button "Equipes" [ref=e98] [cursor=pointer]
+        - button "Logs de auditoria" [ref=e102] [cursor=pointer]
+        - button "Configurações" [ref=e106] [cursor=pointer]
+    - generic [ref=e110]:
+      - generic [ref=e111]: VX
+      - generic [ref=e112]:
+        - strong [ref=e113]: Diretoria VirteX
+        - generic [ref=e114]: Picos, Piauí
+      - button "Sair" [ref=e115] [cursor=pointer]
+  - generic [ref=e116]:
+    - banner [ref=e117]:
+      - generic [ref=e118]:
+        - paragraph [ref=e119]:
+          - generic [ref=e120]: MIOS
+          - generic [ref=e121]: /
+          - generic [ref=e122]: Centro de operações
+        - heading "Centro de operações" [level=1] [ref=e123]
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - text: Cluster Picos/PI
+          - generic [ref=e127]: 99,8%
+        - button "3 alertas" [ref=e128] [cursor=pointer]
+        - button "Nova campanha" [ref=e129] [cursor=pointer]
+    - main [ref=e130]:
+      - generic [ref=e131]:
+        - region "Indicadores do mês" [ref=e132]:
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: ROI geral
+            - paragraph [ref=e135]: 6,69x
+            - paragraph [ref=e136]:
+              - generic [ref=e137]: +0,2%
+              - text: vs. mês anterior
+          - generic [ref=e138]:
+            - paragraph [ref=e139]: Investimento ativo
+            - paragraph [ref=e140]: R$ 187.347
+            - paragraph [ref=e141]: Dentro do orçamento aprovado
+          - generic [ref=e142]:
+            - paragraph [ref=e143]: Leads no mês
+            - paragraph [ref=e144]: "4.329"
+            - paragraph [ref=e145]: +22,8% sobre a meta
+          - generic [ref=e146]:
+            - paragraph [ref=e147]: Custo por aquisição
+            - paragraph [ref=e148]: R$ 41,76
+            - paragraph [ref=e149]: "-8,5% após otimização"
+        - generic [ref=e150]:
+          - region [ref=e151]:
+            - generic [ref=e152]:
+              - heading "Mídia x conversão de fibra" [level=2] [ref=e153]
+              - generic [ref=e154]:
+                - generic [ref=e155]: Hoje Ter
+                - generic [ref=e156]: 22:01:22
+            - generic [ref=e157]:
+              - generic [ref=e158]: Seg
+              - generic [ref=e162]: Ter
+              - generic [ref=e166]: Qua
+              - generic [ref=e170]: Qui
+              - generic [ref=e174]: Sex
+              - generic [ref=e178]: Sáb
+              - generic [ref=e182]: Dom
+          - region [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Últimas movimentações" [level=2] [ref=e188]
+              - generic [ref=e189]: Fluxo
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - generic [ref=e194]: Agora
+                - paragraph [ref=e195]:
+                  - strong [ref=e196]: Equipe de campo Picos
+                  - text: registrou 42 novos contratos na fibra.
+              - generic [ref=e198]:
+                - generic [ref=e199]: há 22 minutos
+                - paragraph [ref=e200]:
+                  - strong [ref=e201]: CPM em Teresina
+                  - text: subiu 18% no Google Ads. Otimização sugerida.
+              - generic [ref=e203]:
+                - generic [ref=e204]: há 1 hora
+                - paragraph [ref=e205]:
+                  - strong [ref=e206]: Evento Parnaíba Tech
+                  - text: teve material gráfico liberado pelo almoxarifado.
+        - region [ref=e207]:
+          - generic [ref=e208]:
+            - heading "Campanhas em andamento" [level=2] [ref=e209]
+            - generic [ref=e210]: 3 ativas
+          - table [ref=e213]:
+            - rowgroup [ref=e214]:
+              - row [ref=e215]:
+                - columnheader "Campanha" [ref=e216]
+                - columnheader "Praça" [ref=e217]
+                - columnheader "Investimento" [ref=e218]
+                - columnheader "ROI" [ref=e219]
+                - columnheader "Status" [ref=e220]
+                - columnheader [ref=e221]
+            - rowgroup [ref=e222]:
+              - row [ref=e223]:
+                - cell [ref=e224]:
+                  - strong [ref=e225]: Ultra Fibra Picos 1Gbps
+                - cell "Picos / PI" [ref=e226]
+                - cell "R$ 45.000" [ref=e227]
+                - cell "8,5x" [ref=e228]
+                - cell "Ativa" [ref=e229]
+                - cell [ref=e231]:
+                  - button "Abrir" [ref=e232] [cursor=pointer]
+              - row [ref=e233]:
+                - cell [ref=e234]:
+                  - strong [ref=e235]: Expansão Teresina Sul
+                - cell "Teresina / PI" [ref=e236]
+                - cell "R$ 80.000" [ref=e237]
+                - cell "5,1x" [ref=e238]
+                - cell "Ativa" [ref=e239]
+                - cell [ref=e241]:
+                  - button "Abrir" [ref=e242] [cursor=pointer]
+              - row [ref=e243]:
+                - cell [ref=e244]:
+                  - strong [ref=e245]: Conecta Parnaíba Litoral
+                - cell "Parnaíba / PI" [ref=e246]
+                - cell "R$ 30.000" [ref=e247]
+                - cell "3,3x" [ref=e248]
+                - cell "Em ajuste" [ref=e249]
+                - cell [ref=e251]:
+                  - button "Abrir" [ref=e252] [cursor=pointer]
